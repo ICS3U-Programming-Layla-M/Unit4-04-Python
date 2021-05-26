@@ -29,10 +29,12 @@ def main():
             else:
 
                 if (guess_as_int == correct_guess):
+                    # if the user guesses correctly
                     print("You guessed correctly!")
                     print("Thanks for playing.")
                     break
                 else:
+                    # if the user guesses incorrectly
                     print("{} is not the correct guess, try again.".
                           format(guess_as_int))
 
